@@ -14,14 +14,12 @@ import 'blocs/recipe_form_provider.dart';
 import 'blocs/shoppinglist_provider.dart';
 
 void main() {
- // WidgetsFlutterBinding.ensureInitialized();
- // final initFuture = MobileAds.instance.initialize();
- // final adState = AdState(initFuture);
+
 
   runApp(
     MultiProvider(
       providers: [
-   //     Provider.value(value: adState),
+ 
         ChangeNotifierProvider(
           create: (_) => RecipeDetailsProvider(),
         ),
